@@ -1,5 +1,10 @@
 package com.king.bridge;
 
+import com.king.bridge.brand.HuaWeiBrand;
+import com.king.bridge.brand.XiaoMiBrand;
+import com.king.bridge.phone.FolderPhone;
+import com.king.bridge.phone.UpPhone;
+
 public class Client {
     public static void main(String[] args) {
         Phone phone = new FolderPhone(new XiaoMiBrand());

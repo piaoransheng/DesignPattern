@@ -1,4 +1,7 @@
-package com.king.bridge;
+package com.king.bridge.phone;
+
+import com.king.bridge.Phone;
+import com.king.bridge.Brand;
 
 //折叠式手机
 public class FolderPhone extends Phone {

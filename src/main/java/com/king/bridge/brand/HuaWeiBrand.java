@@ -1,4 +1,6 @@
-package com.king.bridge;
+package com.king.bridge.brand;
+
+import com.king.bridge.Brand;
 
 public class HuaWeiBrand implements Brand {
     @Override

@@ -1,4 +1,7 @@
-package com.king.bridge;
+package com.king.bridge.phone;
+
+import com.king.bridge.Phone;
+import com.king.bridge.Brand;
 
 //直立式手机
 public class UpPhone extends Phone {
