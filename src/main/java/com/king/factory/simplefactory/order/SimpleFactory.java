@@ -18,7 +18,7 @@ public class SimpleFactory {
      */
     public static Pizza createPizza(String pizzaType) {
         Pizza pizza = null;
-        if ("greak".equals(pizzaType)) {
+        if ("greek".equals(pizzaType)) {
             pizza = new GreekPizza();
             pizza.setName("希腊披萨");
         } else if ("chess".equals(pizzaType)) {
