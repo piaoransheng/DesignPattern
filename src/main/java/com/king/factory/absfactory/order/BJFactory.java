@@ -11,11 +11,11 @@ import com.king.factory.absfactory.pizza.Pizza;
 public class BJFactory extends AbsFactory {
     @Override
     public Pizza createPizza(String pizzaType) {
-        Pizza pizza =null;
-        if (pizzaType.equals("chess")){
+        Pizza pizza = null;
+        if ("chess".equals(pizzaType)) {
             pizza = new BJChessPizza();
             pizza.setName("北京奶酪披萨");
-        }else if (pizzaType.equals("greek")){
+        } else if ("greek".equals(pizzaType)) {
             pizza = new BJGreekPizza();
             pizza.setName("北京希腊披萨");
         }

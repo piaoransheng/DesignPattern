@@ -6,6 +6,6 @@ package com.king.factory.absfactory.order;
  **/
 public class Client {
     public static void main(String[] args) {
-        new OrderPizza(new LDFactory());
+        new OrderPizza(new BJFactory());
     }
 }

@@ -1,4 +1,4 @@
-package com.king.prototype.improve;
+package com.king.prototype.shallowcopy;
 
 public class Client {
     public static void main(String[] args) {
@@ -10,5 +10,7 @@ public class Client {
 
         System.out.println(sheep1);
         System.out.println(sheep2);
+        System.out.println(sheep3);
+        System.out.println(sheep4);
     }
 }
