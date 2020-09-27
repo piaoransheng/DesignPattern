@@ -1,4 +1,4 @@
-package com.king.prototype.shallowcopy;
+package com.king.prototype.shallowclone;
 
 public class Client {
     public static void main(String[] args) {

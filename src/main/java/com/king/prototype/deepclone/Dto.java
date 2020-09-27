@@ -1,7 +1,9 @@
 package com.king.prototype.deepclone;
 
-import java.io.*;
+import lombok.Data;
 
+import java.io.*;
+@Data
 public class Dto implements Cloneable, Serializable {
     public String name;
     public TableEntity tableEntity; //引用类型
@@ -13,11 +15,11 @@ public class Dto implements Cloneable, Serializable {
     /*深拷贝方式一 使用clone方法  */
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Object deep = null;
+        Object cloneObject = null;
         //首先完成对基本数据类型(属性)和String的克隆
-        deep = super.clone();
+        cloneObject = super.clone();
         //对引用类型的属性单独处理
-        Dto dto = (Dto) deep;
+        Dto dto = (Dto) cloneObject;
         dto.tableEntity = (TableEntity) tableEntity.clone();
         return dto;
     }

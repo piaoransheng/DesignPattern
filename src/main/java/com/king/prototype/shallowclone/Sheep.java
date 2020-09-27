@@ -1,4 +1,4 @@
-package com.king.prototype.shallowcopy;
+package com.king.prototype.shallowclone;
 
 import lombok.Data;
 

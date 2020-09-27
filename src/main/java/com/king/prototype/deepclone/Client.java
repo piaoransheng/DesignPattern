@@ -12,7 +12,11 @@ public class Client {
         dto.name = "dtoName";
         dto.tableEntity = new TableEntity("订单详情价格1","订单详情数量1");
 
-        Dto clone = (Dto) dto.clone();
+        Dto clone1 = (Dto) dto.clone();
+        System.out.println(clone1);
 
+
+        Dto clone2  = (Dto) dto.clone2();
+        System.out.println(clone2);
     }
 }
