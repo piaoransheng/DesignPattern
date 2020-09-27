@@ -8,6 +8,6 @@ package com.king.factory.simplefactory.pizza;
 public class GreekPizza extends Pizza {
     @Override
     public void prepare() {
-        System.out.println("准备巧克力披萨的原材料");
+        System.out.println("准备希腊披萨的原材料");
     }
 }
