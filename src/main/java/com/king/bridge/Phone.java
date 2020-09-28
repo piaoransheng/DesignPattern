@@ -1,11 +1,21 @@
 package com.king.bridge;
 
-public abstract class Phone {
+/**
+ * 手机
+ * @author 3048
+ */
+public class Phone {
 
-    //组合品牌
+    /**
+     * 品牌
+     */
     private Brand brand;
 
-    //构造器
+    /**
+     * 构造器载入品牌
+     *
+     * @param brand 品牌
+     */
     public Phone(Brand brand) {
         super();
         this.brand = brand;
@@ -20,6 +30,4 @@ public abstract class Phone {
     protected void call(){
         this.brand.call();
     }
-
-
 }

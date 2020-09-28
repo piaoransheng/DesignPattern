@@ -2,6 +2,9 @@ package com.king.bridge.brand;
 
 import com.king.bridge.Brand;
 
+/**
+ * @author 3048
+ */
 public class XiaoMiBrand implements Brand {
     @Override
     public void open() {
