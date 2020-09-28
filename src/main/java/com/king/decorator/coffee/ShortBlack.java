@@ -1,11 +1,9 @@
 package com.king.decorator.coffee;
 
-import com.king.decorator.Coffe;
-
 /**
  * 美式咖啡
  */
-public class ShortBlack extends Coffe {
+public class ShortBlack extends BaseCoffe {
 
     //构造函数
     public ShortBlack(){

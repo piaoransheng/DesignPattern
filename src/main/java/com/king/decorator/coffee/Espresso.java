@@ -1,8 +1,6 @@
 package com.king.decorator.coffee;
 
-import com.king.decorator.Coffe;
-
-public class Espresso extends Coffe {
+public class Espresso extends BaseCoffe {
     //构造函数
     public Espresso(){
         setDes("意大利咖啡");

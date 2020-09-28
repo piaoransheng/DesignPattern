@@ -1,15 +1,17 @@
-package com.king.decorator;
+package com.king.decorator.decorator;
 
+
+import com.king.decorator.Drink;
 
 /**
  * obj是单品，是各种coffee，是被装饰类
  * super.des，super.getPrice()是调味品，是装饰类
  */
-public class Decorator extends Drink {
+public class BaseDecorator extends Drink {
     //单品
     private Drink obj;
 
-    public Decorator(Drink obj) {  //组合
+    public BaseDecorator(Drink obj) {  //组合
         this.obj = obj;
     }
 

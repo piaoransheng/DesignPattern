@@ -1,10 +1,9 @@
 package com.king.decorator.decorator;
 
-import com.king.decorator.Decorator;
 import com.king.decorator.Drink;
 
 //具体的decorator，这里就是调味品
-public class Chocolate extends Decorator {
+public class Chocolate extends BaseDecorator {
     public Chocolate(Drink obj) {
         super(obj);
         setDes("巧克力");

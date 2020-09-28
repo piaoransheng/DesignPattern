@@ -1,9 +1,11 @@
-package com.king.decorator;
+package com.king.decorator.coffee;
+
+import com.king.decorator.Drink;
 
 /**
  * 咖啡类，继承饮料类
  */
-public class Coffe extends Drink {
+public class BaseCoffe extends Drink {
 
     @Override
     public float cost() {
