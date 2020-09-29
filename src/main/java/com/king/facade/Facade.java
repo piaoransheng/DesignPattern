@@ -18,15 +18,10 @@ public class Facade {
     private Projecters projecters;
     private Screen screen;
 
-
     /**
-     * 构造器
-     * @param dvd
-     * @param popcorn
-     * @param projecters
-     * @param screen
+     * 构造函数
      */
-    public Facade() {
+    Facade() {
         this.dvd = DVD.getInstance();
         this.popcorn = Popcorn.getInstance();
         this.projecters = Projecters.getInstance();
