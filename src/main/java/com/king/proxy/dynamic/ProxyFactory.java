@@ -4,6 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+//动态代理对象   实现InvocationHandler接口，重新invoke方法
 public class ProxyFactory {
 
     private Object target;  //目标对象

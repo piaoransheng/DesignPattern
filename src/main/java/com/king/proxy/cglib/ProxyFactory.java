@@ -27,7 +27,7 @@ public class ProxyFactory implements MethodInterceptor {
         return enhancer.create();
     }
 
-
+    //代理执行方法
     @Override
     public Object intercept(Object o, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
         System.out.println("cglib代理模式开始");
